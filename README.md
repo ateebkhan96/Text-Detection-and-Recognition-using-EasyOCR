@@ -4,7 +4,7 @@ This repository provides a simple implementation of text detection and recogniti
 
 ## Example
 
-![Example Image](sign board.jpg)
+<img src="sign%20board.jpg" width="350" height="450">
 
 The above image demonstrates the text detection and recognition process. The detected text regions are highlighted with bounding boxes, and the recognized text is overlaid on the image.
 
