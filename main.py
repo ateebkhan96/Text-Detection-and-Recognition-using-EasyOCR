@@ -27,5 +27,6 @@ for t_, t in enumerate(text_):
         cv2.rectangle(img, bbox[0], bbox[2], (255, 0, 0), 5)
         cv2.putText(img, text, bbox[0], cv2.FONT_HERSHEY_COMPLEX, 3, (0, 0, 255), 5)
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
+plt.tight_layout()
 plt.axis('off')
 plt.show()
